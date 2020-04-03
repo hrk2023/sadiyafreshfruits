@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadiya Fresh Fruits | Welcome</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+</head>
+<body>
+    <div class="container-fluid fill">
+        <div class='row'>
+            <div class='col-xs-12'>
+                <nav class="navbar navbar-expand-lg navbar-inverse back">
+                    <div class="container design">
+                        <a class="navbar-brand" href="index.html" style="font-weight:bolder;font-size:30px;font-family:Odachi, sans-serif;">Busybuzz</a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#navcollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border-color:transparent;background:transparent;">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navcollapse">
+                            <ul class='nav navbar-nav navbar-right'>
+                                <li class='nav-item'>
+                                    <a href="{{url_for('index')}}" class='nav-link' target="_self">HOME</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a href="#" class='nav-link' target="_self">SERVICES</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a href="{{url_for('about')}}" class='nav-link' target="_self">ABOUT</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a href="#" class='nav-link' target="_self">GALLERY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class='col-xs-12 col-md-offset-5 col-md-7' id='particles-js'></div>
+    <div class='col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-4 pos'>
+        <img src="../static/illutrations/dash.png" class="img-responsive illustration-img">
+    </div>
+    <div class='col-xs-offset-1 col-xs-10 col-sm-offset-6 col-sm-5 pos'>
+        <span class='message'>Business has only two functions – marketing and innovation.</span>
+    </div>
+    <section>
+        <div class='wave'></div>
+    </section>
+    <!--Particle JS-->
+    <script type="text/javascript" src='../static/js/particles.min.js'></script>
+    <script type="text/javascript" src='../static/js/app.js'></script>
+</body>
+</html>
+<!--rgba(165, 27, 169, 0.63);-->
